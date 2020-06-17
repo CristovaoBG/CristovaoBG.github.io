@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Escreva um filme aqui .." title="Digite seu filme favorito"> -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+  <canvas id="backCanvas">Your browser does not support the HTML canvas tag.</canvas>
+  <template>
+    <div class="satellite" title = "">
+      <div class="image"></div>
+      </div>
+  </template>
+
+  <head>
+    <input list="filmList" id="myInput" onkeyup="myFunction(event)" autocomplete="off" placeholder="Escreva um filme aqui .."title="Digite seu filme favorito"/>
+    <!-- <button id="processButton" onclick="processPressed()">Processar</button> -->
+    <datalist id="filmList">
+    </datalist>
+  </head>
+  <main>
+    <div id="planet">
+      <div class="image"></div>
+    </div>
+    <svg height="210" width="500">
+      <line x1="300" y1="300" x2="600" y2="600"/>
+    </svg>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
