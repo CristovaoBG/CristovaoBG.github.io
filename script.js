@@ -29,6 +29,7 @@ var frameCount = 0;
 
 var backCanvas = document.getElementById("backCanvas");
 
+
 function myFunction(event) {
     if (event.keyCode === 13) {
      event.preventDefault();
@@ -36,9 +37,7 @@ function myFunction(event) {
      return;
     }
     //se for seta nao faz nada
-    if(event.keyCode >= 37 && event.keyCode <= 40){
-      return;
-    }
+    if(event.keyCode >= 37 && event.keyCode <= 40) return;
 
     // console.log(event)
     var input, filter, ul, li, a, i, txtValue;
@@ -72,10 +71,18 @@ function myFunction(event) {
       for (let i = 0; i < idResults.length; i++) {
         var newOption = document.createElement("option");
         newOption.value = getMovieNameFormatted(idResults[i]);
+        newOption.addEventListener("click", function(event) {
+        });
         ul.appendChild(newOption);
       }
+      
     }
 }
+
+//se clicar na palavra sugerida, ja processa em vez de esperar apertar o enter
+document.getElementById("myInput").addEventListener("change", function(event) {
+  getRelationsList(event.target.value);
+});
 
 function getFileFromServer(url, doneCallback) {
     var xhr;
