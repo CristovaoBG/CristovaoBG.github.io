@@ -9,6 +9,12 @@ O site consiste em um site estático, em que se insere o nome do filme em portug
 - Digite o nome do filme em português, sem acentuação;
 - Clique na sigestão de compleção de texto que aparecer.
 
+# Links
+- Repositório: https://github.com/CristovaoBG/CristovaoBG.github.io
+- Website: https://CristovaoBG.github.io
+- Filmow: https://filmow.com.br/
+
+
 Obs: Os dados apresentados são anteriores à data de 4 de junho de 2020, Portanto não estão presentes filmes lançados antes dessa data.
 
 Screenshot:
