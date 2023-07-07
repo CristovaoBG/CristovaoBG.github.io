@@ -8,6 +8,7 @@ O site consiste em um site estático, em que se insere o nome do filme em portug
 - Acesse o website: https://cristovaobg.github.io/
 - Digite o nome do filme em português, sem acentuação;
 - Clique na sigestão de compleção de texto que aparecer.
+- Mova o cursor para o filme desejado e clique para ser redirecionado para a página do filmow correspondente ao filme selecionado.
 
 # Links
 - Repositório: https://github.com/CristovaoBG/CristovaoBG.github.io
